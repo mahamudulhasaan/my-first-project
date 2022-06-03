@@ -1,0 +1,161 @@
+.mainBtn {
+    display: inline-block;
+    border-radius: 150px;
+    transition: 2s;
+    padding: 10px 37px;
+    background: tomato;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 1px rgb(0, 0, 1);
+}
+
+.mainBtn:hover{
+    background: #344c98;
+    color: white;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #344c98;
+    margin-bottom: 16px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bannerSectionWap .mainh1{
+    margin-top: 90px;
+}
+h2{
+    font-size: 45px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #344c98;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #344c98;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    color: tomato;
+}
+/* Navber */
+.headerWap .navbar{
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    -f-transition:all .2s linear;
+    transition:all .2s linear;
+}
+.headerWap .navbar-brand img{
+    max-width: 150px;
+    height: auto;
+}
+.headerWap .navbar-toggler{
+    border: none;
+}
+.headerWap .navbar-toggler:focus{
+    box-shadow: none;
+}
+.headerWap .nav-item{
+    margin:0 10px;
+}
+.headerWap .nav-link{
+    font-size: 17px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(169, 169, 169);
+}
+
+.headerWap .nav-link:hover{
+    color: tomato;
+    transition: 2s;
+}
+/* Banner */
+.bannerSectionWap .mainImg{
+    margin-top: 56px;
+}
+/* Services */
+#aboutSectionWrap{
+    margin-top: 100px;
+}
+/* aboutSection */
+.serviceSectionWrap  .servicePhone{
+    max-width: 78%;
+}
+/* Blog */
+.BlogSectionWrap .card a {
+    text-decoration: none;
+    color: tomato;
+}
+.BlogSectionWrap .card a:hover{
+    color: black;
+}
+.BlogSectionWrap .newsLetterWrap{
+    background-color: #344c98;
+}
+.BlogSectionWrap .newsLetterWrap .newsLetter{
+    width: 50%;
+    margin: 0 auto;
+}
+.newsLetter .form-control{
+    background: #344c98;
+    border-radius: 20px;
+    border-color: #365fe9;
+    border-style: solid;
+    font-size: 22px;
+    color: white;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.newsLetter input::placeholder{
+    color: white;
+}
+/* Contrat */
+.contractSectionWrap {
+    margin: 50px 50px;
+}
+.contractSectionWrap input,
+.contractSectionWrap textarea{
+    background: white ;
+    border-color: gray ;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    padding: 10px 10px 10px 10px;
+}
+/* Footer */
+.footerSectionWrap{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.footerSectionWrap a{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footerSectionWrap a:hover{
+    color: tomato;
+}
+
+

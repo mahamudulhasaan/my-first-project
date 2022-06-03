@@ -1,0 +1,65 @@
+
+
+
+
+@media(max-width : 1230px) {
+    /* services */
+    .serviceSectionWrap  .servicePhone{
+        max-width: 100%;
+    }
+}
+
+@media (max-width : 991px) {
+
+    /* custome css */
+    section {
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    /* navber */
+    .headerWap .menu-navber-nav {
+        text-align: center;
+        background-color: #fff;
+    }
+
+    .headerWap .menu-navber-nav .nav-item {
+        margin-top: 10px;
+    }
+
+    /* Blog */
+    .BlogSectionWrap .newsLetter{
+        width: 100%;
+    }
+}
+
+
+@media(max-width : 767px) {
+
+    /* custome */
+    h1 {
+        font-size: 100px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .mainBtn{
+        font-size: 13px ;
+    }
+    
+}
